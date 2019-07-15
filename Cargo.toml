@@ -1,0 +1,11 @@
+[package]
+name = "asn1-issue"
+version = "0.1.0"
+authors = ["Ferdia McKeogh <ferdia@mckeogh.tech>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+asn1 = { git = "https://github.com/dac-gmbh/asn1.git", features = ["der"] }
+serde = { version = "1.0.94", features = ["derive"] }
