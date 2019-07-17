@@ -11,7 +11,7 @@ dependencies = [
 [[package]]
 name = "asn1"
 version = "0.1.0"
-source = "git+https://github.com/dac-gmbh/asn1.git#b3a4e5cf15c458adb2c67dce31e304c61ef5b035"
+source = "git+https://github.com/dac-gmbh/asn1.git#e73bce1a6b85667f6b5b4ccbfdab02e88e576b59"
 dependencies = [
  "asn1-core 0.1.0 (git+https://github.com/dac-gmbh/asn1.git)",
  "asn1-der 0.1.0 (git+https://github.com/dac-gmbh/asn1.git)",
@@ -20,7 +20,7 @@ dependencies = [
 [[package]]
 name = "asn1-core"
 version = "0.1.0"
-source = "git+https://github.com/dac-gmbh/asn1.git#b3a4e5cf15c458adb2c67dce31e304c61ef5b035"
+source = "git+https://github.com/dac-gmbh/asn1.git#e73bce1a6b85667f6b5b4ccbfdab02e88e576b59"
 dependencies = [
  "bit-vec 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -33,7 +33,7 @@ dependencies = [
 [[package]]
 name = "asn1-der"
 version = "0.1.0"
-source = "git+https://github.com/dac-gmbh/asn1.git#b3a4e5cf15c458adb2c67dce31e304c61ef5b035"
+source = "git+https://github.com/dac-gmbh/asn1.git#e73bce1a6b85667f6b5b4ccbfdab02e88e576b59"
 dependencies = [
  "asn1-core 0.1.0 (git+https://github.com/dac-gmbh/asn1.git)",
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
